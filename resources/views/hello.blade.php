@@ -9,6 +9,12 @@
 <body>
   <h2>Hello World Laravel!!</h2>
   <p>ぷちハッカソン!</p>
+  <br>
+  <div id="map" style="height:500px">
+  </div>
+  <script src="{{ asset('/js/result.js') }}"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?language=ja&region=JP&key=AIzaSyCAeqrRaYJ9Cs9faJN14sYFV2BzmdQVKRc&callback=initMap" async defer>
+  </script>
 </body>
 
 </html>
